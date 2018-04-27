@@ -13,6 +13,8 @@
       "singleQuote": true,
       "bracketSpacing": true,
       "jsxBracketSameLine": true
-    }]
+    }],
+    no-console: ["error", { allow: ["log"] }],
+    "import/no-unresolved": "off"
   }
 }
