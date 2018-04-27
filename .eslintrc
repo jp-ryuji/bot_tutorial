@@ -14,7 +14,6 @@
       "bracketSpacing": true,
       "jsxBracketSameLine": true
     }],
-    no-console: ["error", { allow: ["log"] }],
-    "import/no-unresolved": "off"
+    no-console: ["error", { allow: ["log"] }]
   }
 }
