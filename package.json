@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jp-ryuji/bot_tutorial/issues"
   },
-  "homepage": "https://github.com/jp-ryuji/bot_tutorial#readme"
+  "homepage": "https://github.com/jp-ryuji/bot_tutorial#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.12.1"
+  }
 }
