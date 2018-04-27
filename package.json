@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/jp-ryuji/bot_tutorial#readme",
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
