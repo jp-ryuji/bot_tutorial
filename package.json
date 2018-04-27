@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged",
+    "lint:fix-all": "eslint --fix --ext .js,.jsx'./javascripts/**'"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": ["eslint --fix", "git add"]
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/jp-ryuji/bot_tutorial/issues"
   },
-  "homepage": "https://github.com/jp-ryuji/bot_tutorial#readme"
+  "homepage": "https://github.com/jp-ryuji/bot_tutorial#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
+  }
 }
